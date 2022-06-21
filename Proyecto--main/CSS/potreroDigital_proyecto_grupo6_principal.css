@@ -1,0 +1,179 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/fondos/fondo-person.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  /* DISPLAY*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header{
+  background-color: #4285C3;
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+/*extra*/
+  flex-wrap: wrap;
+}
+
+input{
+  margin-bottom: 7px;
+  margin-right: 5px;
+  box-shadow: 0px 3px 2px black;
+}
+nav{
+  background-color: #174B98;
+  height:50px; /*modifique acs 40px*/
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+background-color: #5184AD;
+text-decoration: none;
+color: black;
+display: inline-block;
+font-size: 25px;
+font-family: fantasy;
+margin: 4px;
+padding: 2px;
+text-align: center;
+width: 28vh;
+box-shadow: 0px 3px 2px black;
+position: relative;
+}
+
+.button:before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ff0000;/*rgb(0, 180, 216);*/
+  bottom: 0;
+  left: 0.25%;
+  transition: all .3s;
+  position: absolute;
+/*  border-radius: 50%;*/
+}
+/*.button:hover::before*/
+.button:hover:before{
+width: 99.5%;
+}
+
+.logotipo{
+  margin-left:5px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.bienvenida{
+  background-color: #44A2EC;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1{
+  margin: 2px;
+  font-size: 35px;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+
+main{
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+figcaption{
+  background-color: #608EB1;
+  font-size: 18px;
+  text-align: center;
+  width: 255px;
+}
+
+#leyenda{
+  font-size: 15px;
+
+}
+article{
+  display: flex;
+  display: inline-block;
+
+  margin: 3px;
+}
+
+
+.portadas{
+  height: 255px;
+  width: 255px;
+  border-radius:2px;
+  box-shadow: 0px 3px 2px black;
+  border: 2PX  #077171 solid;
+  /* display*/
+}
+
+footer{
+  background-color: #4285C3;
+  height: 240px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  display: block;
+
+}
+h3{
+  color: white;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7px;
+}
+.logo-footer{
+  display: flex;
+  justify-content: center;
+  margin-left:5px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+.redes-footer{
+  display: flex;
+  justify-content: center;
+}
+
+.iconos{
+  margin: 3px;
+}
+.email{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}

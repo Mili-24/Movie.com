@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondos/fondo-person.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    /* DISPLAY*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background: linear-gradient(to right, rgb(94, 96, 206), rgb(83, 144, 217));
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*extra*/
+    flex-wrap: wrap;
+}
+
+input {
+    margin-bottom: 8px;
+    margin-right: 5px;
+    box-shadow: 0px 3px 2px black;
+}
+
+nav {
+    background-color: rgb(83, 144, 217);
+    border: rgb(2, 48, 71) 5px inset;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #5184AD;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    font-family: fantasy;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    width: 28vh;
+    box-shadow: 0px 3px 2px black;
+    position: relative;
+}
+
+.button:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ff0000;
+    bottom: 0;
+    left: 0.25%;
+    transition: all .3s;
+    position: absolute;
+}
+
+.button:hover:before {
+    width: 99.5%;
+}
+
+.logotipo {
+    margin-left: 5px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* CARRUSEL*/
+
+#contenedorItemsCarrusel {
+    margin: auto;
+    height: 400px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.itemCarrusel {
+    height: 100%;
+    position: relative;
+    /*margin-bottom: 15px;*/
+}
+
+.imagenCarrusel {
+    background-color: aqua;
+    height: 100%;
+}
+
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 5px;*/
+}
+
+
+
+#slide-1Carrusel {
+    background-color: blueviolet;
+}
+
+#slide-2Carrusel {
+    background-color: rgb(37, 177, 79);
+}
+
+#slide-3Carrusel {
+    background-color: rgb(226, 226, 43);
+}
+
+#slide-4Carrusel {
+    background-color: rgb(214, 43, 226);
+}
+
+
+i {
+    padding: 10px;
+
+}
+
+svg {
+    fill: cornsilk;
+    width: 30px;
+}
+
+#contenedorPuntos {
+    display: flex;
+    justify-content: center;
+}
+
+.puntosE {
+    margin: 3px 10px;
+    font-size: 2em;
+
+}
+
+.imgSlider {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    /*background-color:  #548181;*/
+    background-color: rgb(67, 97, 238);
+    font-size: 18px;
+    text-align: center;
+    width: 304px;
+    margin: 0px 5px;
+    border: 2px solid #2C40A4;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.pelicula {
+    width: 300px;
+    height: 300px;
+    border: 2PX #077171 solid;
+    margin: 5px;
+}
+
+
+
+
+footer {
+    /*background-color: #4285C3;*/
+    background: linear-gradient(to right, #313DCD, #4BA1E5);
+    height: 240px;
+    /*  margin-left: 30px;
+    margin-right: 30px;*/
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.derechos {
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7px;
+}
+
+.contacto {
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    margin: 12px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos {
+    margin: 3px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .fondo {
+        width: auto;
+    }
+
+    body {
+        display: flex;
+        display: inline-flex;
+        width: 100%;
+    }
+
+    header {
+        width: 1000px;
+        height: 100px;
+    }
+
+    nav {
+        display: flex;
+        display: inline;
+        justify-content: center;
+    }
+
+    .logotipo {
+        margin-left: 10px;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 4px;
+        height: 25px;
+        display: flex;
+        display: inline;
+        justify-content: center;
+
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .imgslider {
+        width: 600px;
+    }
+
+    #slide1 {
+        width: 600px;
+    }
+
+    #slide2 {
+        width: 600px;
+    }
+
+    #slide3 {
+        width: 600px;
+    }
+
+    #slide4 {
+        width: 600px;
+    }
+
+    .contendor {
+        display: flex;
+        display: inline-block;
+    }
+
+    .pelicula {
+        width: 150px;
+        height: 150px;
+    }
+
+    figcaption {
+        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        padding: 2px;
+        margin-top: 2px;
+    }
