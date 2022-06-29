@@ -1,5 +1,4 @@
-
-body{
+body {
   margin: 0;
   padding: 0;
   background: url(../img/fondos/fondo-person.jpg);
@@ -11,23 +10,23 @@ body{
   justify-content: center;
 }
 
-header{
+header {
   background: linear-gradient(to right, rgb(94, 96, 206), rgb(83, 144, 217));
   height: 100px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  *extra*/
+  /*extra*/
   flex-wrap: wrap;
 }
 
-input{
+input {
   margin-bottom: 8px;
   margin-right: 5px;
   box-shadow: 0px 3px 2px black;
 }
 
-nav{
+nav {
   background-color: rgb(83, 144, 217);
   height: 60px;
   margin-top: 5px;
@@ -36,23 +35,23 @@ nav{
   justify-content: center;
 }
 
-.button{
-background-color: #5184AD;
-text-decoration: none;
-color: black;
-display: inline-block;
-font-size: 25px;
-font-family: fantasy;
-margin: 4px;
-padding: 2px;
-text-align: center;
-width: 28vh;
-height: 35px;
-box-shadow: 0px 3px 2px black;
-position: relative;
+.button {
+  background-color: #5184AD;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-size: 25px;
+  font-family: fantasy;
+  margin: 4px;
+  padding: 2px;
+  text-align: center;
+  width: 28vh;
+  height: 35px;
+  box-shadow: 0px 3px 2px black;
+  position: relative;
 }
 
-.button:before{
+.button:before {
   content: "";
   display: block;
   width: 0;
@@ -64,17 +63,17 @@ position: relative;
   position: absolute;
 }
 
-.button:hover:before{
-width: 99.5%;
+.button:hover:before {
+  width: 99.5%;
 }
 
-.logo{
-  margin-left:5px;
+.logo {
+  margin-left: 5px;
   margin-bottom: 7px;
   margin-top: 7px;
 }
 
-.titulo{
+.titulo {
   background-color: #44A2EC;
   height: 70px;
   display: flex;
@@ -82,32 +81,35 @@ width: 99.5%;
   align-items: center;
 }
 
-main{
+main {
   margin-left: 30px;
   margin-right: 30px;
   display: flex;
   display: inline-block;
-    justify-content: space-around;
+  justify-content: space-around;
 }
-article{
+
+article {
   display: flex;
   display: inline-block;
 
 }
-.listado{
+
+.listado {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 5px auto;
 }
 
-.portadas{
+.portadas {
   height: 400px;
   width: 400px;
-  border-radius:2px;
+  border-radius: 2px;
   box-shadow: 0px 3px 2px black;
 }
-figcaption{
+
+figcaption {
   background-color: rgb(67, 97, 238);
   border: 2px solid #2C40A4;
   font-size: 18px;
@@ -117,33 +119,33 @@ figcaption{
   padding-bottom: 3px;
 }
 
-  .enlace{
-    color: white;
-    text-decoration: underline;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /*DISPLAY*/
-    display: flex;
-    justify-content: center;
-  }
+.enlace {
+  color: white;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*DISPLAY*/
+  display: flex;
+  justify-content: center;
+}
 
-footer{
-    background: linear-gradient(to right, #313DCD    , #4BA1E5);
+footer {
+  background: linear-gradient(to right, #313DCD, #4BA1E5);
   height: 240px;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   display: block;
 }
 
-.contacto{
- color: white;
- font-size:20px;
- padding: 4px;
- margin: 12px;
+.contacto {
+  color: white;
+  font-size: 20px;
+  padding: 4px;
+  margin: 12px;
 }
 
-.derechos{
+.derechos {
   color: white;
   background-color: black;
   text-align: center;
@@ -151,26 +153,30 @@ footer{
   justify-content: flex-end;
   padding-right: 7px;
 }
-.logo-footer{
+
+.logo-footer {
   display: flex;
   justify-content: center;
-  margin-left:5px;
+  margin-left: 5px;
   margin-bottom: 7px;
   margin-top: 7px;
 }
-.redes-footer{
+
+.redes-footer {
   display: flex;
   justify-content: center;
 }
 
-.iconos{
+.iconos {
   margin: 3px;
 }
-.email{
+
+.email {
   display: flex;
   justify-content: center;
 }
-a{
+
+a {
   text-decoration: none;
   font-size: 20px;
   color: black;
