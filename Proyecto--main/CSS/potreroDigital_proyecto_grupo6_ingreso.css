@@ -61,15 +61,12 @@ nav {
   width: 0;
   height: 3px;
   background: #ff0000;
-  /*rgb(0, 180, 216);*/
   bottom: 0;
   left: 0.25%;
   transition: all .3s;
   position: absolute;
-  /*  border-radius: 50%;*/
 }
 
-/*.button:hover::before*/
 .button:hover:before {
   width: 99.5%;
 }
@@ -131,7 +128,6 @@ label {
 
 .contraseña {
   text-decoration: underline;
-  /*color: #2E9FB8;*/
   color: white;
   font-size: 20px;
 }
