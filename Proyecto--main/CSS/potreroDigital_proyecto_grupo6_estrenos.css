@@ -16,7 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  /*extra*/
   flex-wrap: wrap;
 }
 
@@ -92,7 +91,6 @@ main {
 article {
   display: flex;
   display: inline-block;
-
 }
 
 .listado {
@@ -124,7 +122,6 @@ figcaption {
   text-decoration: underline;
   margin-top: 10px;
   margin-bottom: 10px;
-  /*DISPLAY*/
   display: flex;
   justify-content: center;
 }
