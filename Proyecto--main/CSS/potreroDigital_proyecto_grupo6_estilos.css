@@ -19,3 +19,9 @@ header {
     /*extra*/
     flex-wrap: wrap;
 }
+
+input {
+    margin-bottom: 8px;
+    margin-right: 5px;
+    box-shadow: 0px 3px 2px black;
+}
