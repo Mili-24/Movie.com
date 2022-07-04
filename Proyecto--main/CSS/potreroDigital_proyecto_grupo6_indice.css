@@ -1,5 +1,4 @@
-
-body{
+body {
   margin: 0;
   padding: 0;
   background: url(../img/fondos/fondo-person.jpg);
@@ -11,23 +10,23 @@ body{
   justify-content: center;
 }
 
-header{
+header {
   background: linear-gradient(to right, rgb(94, 96, 206), rgb(83, 144, 217));
   height: 100px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
   /*extra*/
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-input{
+input {
   margin-bottom: 7px;
   margin-right: 5px;
   box-shadow: 0px 3px 2px black;
 }
 
-nav{
+nav {
   background-color: rgb(83, 144, 217);
   border: rgb(2, 48, 71) 5px inset;
   height: 60px;
@@ -37,129 +36,113 @@ nav{
   justify-content: center;
 }
 
-.button{
-background-color: #5184AD;
-text-decoration: none;
-color: black;
-display: inline-block;
-font-size: 25px;
-font-family: fantasy;
-margin: 6px;
-padding: 2px;
-text-align: center;
-width: 28vh;
-height: 35px;
-box-shadow: 0px 3px 2px black;
-position: relative;
+.button {
+  background-color: #5184AD;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-size: 25px;
+  font-family: fantasy;
+  margin: 6px;
+  padding: 2px;
+  text-align: center;
+  width: 28vh;
+  height: 35px;
+  box-shadow: 0px 3px 2px black;
+  position: relative;
 }
 
-
-.button:before{
+.button:before {
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background: #ff0000;/*rgb(0, 180, 216);*/
+  background: #ff0000;
   bottom: 0;
   left: 0.25%;
   transition: all .3s;
   position: absolute;
-/*  border-radius: 50%;*/
 }
-/*.button:hover::before*/
-.button:hover:before{
-width: 99.5%;
+
+.button:hover:before {
+  width: 99.5%;
 }
-.logo{
-  margin-left:5px;
+
+.logo {
+  margin-left: 5px;
   margin-bottom: 7px;
   margin-top: 7px;
 }
 
-.titulo{
+.titulo {
   background-color: #44A2EC;
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  main{
-    height: 1000px;
-    display: flex;
-    display:inline-block;
-   margin-left: 10px;
+
+main {
+  height: 1000px;
+  display: flex;
+  display: inline-block;
+  margin-left: 10px;
 
 }
 
-    .indice{
-      display: flex;
-      display:inline-block;
+.indice {
+  display: flex;
+  display: inline-block;
 
-    }
-    .submenu{
-      display: flex;
-      display:inline-block;
-      width: 285px;
-      height: 225px;
-    /*  border: 3px solid black;*/
-    border:2px #0662AF solid;
-      margin: 10px;
+}
 
-    }
+.submenu {
+  display: flex;
+  display: inline-block;
+  width: 285px;
+  height: 225px;
+  border: 2px #0662AF solid;
+  margin: 10px;
+}
 
-    .title{
-      padding-left: 20px;
-      color: white;
-      font-size: 20px;
-      text-align: center;
-    }
-    .letras{
-      color: white;
-      padding-left: 3px;
-    }
-/*  .indice{
-    display: flex;
-    display:inline-block;
-    width:200px;
-    height: 200px;
-    flex-wrap: wrap;
-  }
+.title {
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 
-  .division{
-    border: 3px solid black;
-    width: 200px;
-    height: 200px;
-    padding: 3px;
-    display: flex;
-    display: inline;
-    flex-wrap: wrap;
-  }*/
+.letras {
+  color: white;
+  padding-left: 3px;
+}
 
- .indice ul li a{
-    color: white;
- }
+.indice ul li a {
+  color: white;
+}
 
- .mas{
-   text-decoration: underline;
-   color: white;
- }
-footer{
-    background: linear-gradient(to right, #313DCD    , #4BA1E5);
+.mas {
+  text-decoration: underline;
+  color: white;
+}
+
+footer {
+  background: linear-gradient(to right, #313DCD, #4BA1E5);
   height: 240px;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   display: block;
 }
 
-.contacto{
- color: white;
- font-size:20px;
- padding: 4px;
- margin: 12px;
+.contacto {
+  color: white;
+  font-size: 20px;
+  padding: 4px;
+  margin: 12px;
 }
 
-.derechos{
+.derechos {
   color: white;
   background-color: black;
   text-align: center;
@@ -167,26 +150,30 @@ footer{
   justify-content: flex-end;
   padding-right: 7px;
 }
-.logo-footer{
+
+.logo-footer {
   display: flex;
   justify-content: center;
-  margin-left:5px;
+  margin-left: 5px;
   margin-bottom: 7px;
   margin-top: 7px;
 }
-.redes-footer{
+
+.redes-footer {
   display: flex;
   justify-content: center;
 }
 
-.iconos{
+.iconos {
   margin: 3px;
 }
-.email{
+
+.email {
   display: flex;
   justify-content: center;
 }
-a{
+
+a {
   text-decoration: none;
   font-size: 20px;
   color: black;
