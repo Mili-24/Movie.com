@@ -35,3 +35,35 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.button {
+    background-color: #5184AD;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    font-family: fantasy;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    width: 28vh;
+    height: 35px;
+    box-shadow: 0px 3px 2px black;
+    position: relative;
+}
+
+.button:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ff0000;
+    bottom: 0;
+    left: 0.25%;
+    transition: all .3s;
+    position: absolute;
+}
+
+.button:hover:before {
+    width: 99.5%;
+}
