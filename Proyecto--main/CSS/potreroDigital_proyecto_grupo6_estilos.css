@@ -73,3 +73,11 @@ nav {
     margin-bottom: 7px;
     margin-top: 7px;
 }
+
+.titleStyle {
+    background-color: #44A2EC;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
